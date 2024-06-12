@@ -15,7 +15,7 @@ router.get('/', function (req, res, next) {
 });
 // Kết nối PostgreSQL
 const pool = new Pool({
-    host: process.env.PGHOST || 'localhost',
+    host: process.env.PGHOST || 'quanlykho102-a34141fc4d58.herokuapp.com',
     user: process.env.PGUSER || 'postgres',
     password: process.env.PGPASSWORD || '991531',
     database: process.env.PGDATABASE || 'db_quanlykho',
