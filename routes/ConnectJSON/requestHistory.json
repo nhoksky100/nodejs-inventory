@@ -1,1 +1,12 @@
-[]
+[
+    {
+      "idHistory": "5765d9e6-ca",
+      "idRequests": "b189657d-b1",
+      "dateCreated": "2024-05-26T12:56:00"
+    },
+    {
+      "idHistory": "6dccc34f-4a",
+      "idRequests": ["be945763-5d", "56aedb09-46"],
+      "dateCreated": "2024-05-26T12:55:00"
+    }
+  ]
