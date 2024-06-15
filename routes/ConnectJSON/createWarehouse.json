@@ -1,1 +1,50 @@
-[]
+[
+    {
+        "id": "241bb8de-cd",
+        "warehouseCode": "MK-271f5589-7b",
+        "warehouseName": "kho 1",
+        "warehouseStatus": "Đang sử dụng",
+        "warehouseDateCreated": "18/04/2024 - 2:05 PM",
+        "warehouseDateUpdate": null
+    },
+    {
+        "id": "ed0ceb63-7a",
+        "warehouseCode": "MK-f6356df1-e3",
+        "warehouseName": "kho 2",
+        "warehouseStatus": "Đang sử dụng",
+        "warehouseDateCreated": "18/04/2024 - 2:11 PM",
+        "warehouseDateUpdate": null
+    },
+    {
+        "id": "7b1d2c83-0e",
+        "warehouseCode": "MK-7bf3b067-55",
+        "warehouseName": "kho 3",
+        "warehouseStatus": "Đang sử dụng",
+        "warehouseDateCreated": "18/04/2024 - 2:11 PM",
+        "warehouseDateUpdate": null
+    },
+    {
+        "id": "b5176637-ae",
+        "warehouseCode": "MK-77a327a5-ee",
+        "warehouseName": "kho 4",
+        "warehouseStatus": "Đang sử dụng",
+        "warehouseDateCreated": "18/04/2024 - 2:11 PM",
+        "warehouseDateUpdate": null
+    },
+    {
+        "id": "7c6b649c-b6",
+        "warehouseCode": "MK-ac2e2d3d-e6",
+        "warehouseName": "kho 5",
+        "warehouseStatus": "Đang sử dụng",
+        "warehouseDateCreated": "18/04/2024 - 2:12 PM",
+        "warehouseDateUpdate": null
+    },
+    {
+        "id": "567b2a2f-8c",
+        "warehouseCode": "MK-5dc15374-7c",
+        "warehouseName": "kho 6",
+        "warehouseStatus": "Đang sử dụng",
+        "warehouseDateCreated": "18/04/2024 - 2:16 PM",
+        "warehouseDateUpdate": null
+    }
+]
