@@ -1,0 +1,46 @@
+[
+    {
+        "id": "8b3ebd07-cf",
+        "idSend": "6103dacc-27",
+        "idReceiver": "41fcfa3e-99",
+        "messageNameSend": "ali",
+        "messageDepartmentSend": "Giám đốc điều hành",
+        "messageTitle": "gửi thông tin tr",
+        "messageContent": "fgfgf",
+        "messageStatus": "41fcfa3e-99",
+        "messageDateCreated": "19/06/2024 - 1:34 PM"
+    },
+    {
+        "id": "8h2cbd07-cf",
+        "idSend": "6103dacc-27",
+        "idReceiver": "064f2211-72,07be9987-b1",
+        "messageNameSend": "ali",
+        "messageDepartmentSend": "Giám đốc điều hành",
+        "messageTitle": "gửi thông tin",
+        "messageContent": "text thông tin",
+        "messageStatus": "064f2211-72",
+        "messageDateCreated": "19/06/2024 - 11:38 AM"
+    },
+    {
+        "id": "c2fb0420-f5",
+        "idSend": "07be9987-b1",
+        "idReceiver": "329ad526-8a",
+        "messageNameSend": "thanhvienkit",
+        "messageDepartmentSend": "Bếp",
+        "messageTitle": "jjj",
+        "messageContent": "hhhhf fd fsdf sdd áda sd",
+        "messageStatus": "",
+        "messageDateCreated": "19/06/2024 - 5:21 PM"
+    },
+    {
+        "id": "fbfe28d0-bd",
+        "idSend": "6103dacc-27",
+        "idReceiver": "193ceaa2-86",
+        "messageNameSend": "ali",
+        "messageDepartmentSend": "Giám đốc điều hành",
+        "messageTitle": "gửi thông tin kt",
+        "messageContent": "hhhghg",
+        "messageStatus": "193ceaa2-86",
+        "messageDateCreated": "19/06/2024 - 2:31 PM"
+    }
+]
