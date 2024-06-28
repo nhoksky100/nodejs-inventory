@@ -31,6 +31,7 @@ const accCustomerJson = path.join(__dirname, './ConnectJSON/Account_Customer.jso
 const fileImageJson = path.join(__dirname, './ConnectJSON/ImageProfile.json');
 const listSendFiendJSON = path.join(__dirname, './ConnectJSON/ListSendFriend.json');
 const uploadFileJson = path.join(__dirname, './ConnectJSON/Upload_File.json');
+const messageJon = path.join(__dirname, './ConnectJSON/message.json');
 
 const readJsonFile = async (filePath) => {
     try {
@@ -55,6 +56,10 @@ router.get('/', (req, res) => {
 });
 
 // Lấy dữ liệu
+router.get('/getMessage', async (req, res) => {
+    const data = await readJsonFile(messageJon);
+    res.json(data);
+});
 router.get('/getRequestTransfer', async (req, res) => {
     const data = await readJsonFile(requestTransferExport);
     res.json(data);
@@ -155,6 +160,13 @@ router.get('/listSendFriend', async (req, res) => {
 });
 
 // Thêm dữ liệu
+router.post('/messageSendAdd', async (req, res) => {
+    const data = await readJsonFile(messageJon);
+    const newMessage = req.body;
+    data.push(newMessage);
+    await writeJsonFile(messageJon, data);
+    res.json({ status: true, message: 'Yêu cầu đã được thêm thành công' });
+});
 router.post('/addOrderRequest', async (req, res) => {
     const data = await readJsonFile(requestListJson);
     const newOrder = req.body;
@@ -279,6 +291,18 @@ router.post('/addTransferExportRequestTemp', async (req, res) => {
 });
 
 // Cập nhật dữ liệu
+router.post('/updateMessageStatus', async (req, res) => {
+    const data = await readJsonFile(messageJon);
+    const { id, messageStatus } = req.body;
+    const index = data.findIndex(message => message.id === id);
+    if (index !== -1) {
+        data[index].messageStatus = messageStatus;
+        await writeJsonFile(messageJon, data);
+        res.json(data[index]);
+    } else {
+        res.status(404).json({ message: 'Thông báo không tồn tại' });
+    }
+});
 router.post('/updateDataMember', async (req, res) => {
     const data = await readJsonFile(memberJson);
     const updatedMember = req.body.pushDataNewMember[0];
